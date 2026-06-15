@@ -43,7 +43,7 @@ The installer targets OPNsense on FreeBSD 14 amd64. It first uses the bundled Fr
 
 ## Install
 
-From an OPNsense shell, enter this project directory and run:
+Upload the package installer to the firewall and run the following command in the OPNsnese shell to install it：
 
 ```sh
 pkg add -f os-ttyd.pkg
