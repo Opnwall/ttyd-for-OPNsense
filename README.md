@@ -12,7 +12,13 @@ The web terminal starts a real TTY through `ttyd`, then prompts for a login name
 printf "login: "; read -r user; ssh -tt "$user@127.0.0.1"
 ```
 
-Authentication, permissions, auditing, and the shell environment remain controlled by OPNsense OpenSSH. Interactive tools such as `vi`, `top`, `less`, shell job control, Ctrl-C, and curses applications are supported.
+Authentication, permissions, auditing, and the shell environment remain controlled by OPNsense OpenSSH. 
+
+Tested and verified in the following environments:
+
+- OPNsense 26.1.9
+
+![](image/ttyd.png)
 
 ## Compatibility
 
