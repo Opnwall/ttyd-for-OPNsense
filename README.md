@@ -1,5 +1,10 @@
 # ttyd for OPNsense
 
+[![OPNsense](https://img.shields.io/badge/OPNsense-Plugin-orange)](https://opnsense.org/)
+[![FreeBSD 14](https://img.shields.io/badge/FreeBSD-14-red)](https://www.freebsd.org/)
+[![ttyd](https://img.shields.io/badge/ttyd-Web%20Terminal-blue)](https://github.com/tsl0922/ttyd)
+[![amd64](https://img.shields.io/badge/Architecture-amd64-success)](#)
+
 This project adds a ttyd browser terminal to OPNsense under:
 
 ```text
