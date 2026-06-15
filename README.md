@@ -28,42 +28,23 @@ The installer targets OPNsense on FreeBSD 14 amd64. It first uses the bundled Fr
 - `src/usr/local/etc/rc.d/os-ttyd`: rc.d service script.
 - `src/etc/rc.conf.d/ttyd`: default service configuration.
 - `vendor/freebsd14-amd64/*.pkg`: bundled FreeBSD 14 amd64 ttyd runtime packages.
-- `install.sh`: manual installer.
-- `uninstall.sh`: manual uninstaller.
-- `build-pkg.sh`: builds `dist/os-ttyd.pkg` on FreeBSD/OPNsense. The package uses a private runtime under `/usr/local/os-ttyd`.
+- `build.sh`: builds `dist/os-ttyd.pkg` on FreeBSD/OPNsense. The package uses a private runtime under `/usr/local/os-ttyd`.
 
 ## Install
 
 From an OPNsense shell, enter this project directory and run:
 
 ```sh
-chmod +x install.sh uninstall.sh
-./install.sh
+pkg add -f os-ttyd.pkg
 ```
 
 Refresh the OPNsense web interface and open `System > Diagnostics > ttyd`.
 
-## Package
-
-To build the installable FreeBSD package on an OPNsense host:
+## Uninstall
 
 ```sh
-chmod +x build-pkg.sh
-./build-pkg.sh
+pkg delete os-ttyd
 ```
-
-The output package is:
-
-```text
-dist/os-ttyd.pkg
-```
-
-Install it with:
-
-```sh
-pkg add -f dist/os-ttyd.pkg
-```
-
 ## Requirements
 
 1. Enable Secure Shell under `System > Settings > Administration`.
