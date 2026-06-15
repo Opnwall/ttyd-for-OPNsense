@@ -1,14 +1,9 @@
 # ttyd for OPNsense
 
-[![GitHub Release](https://img.shields.io/github/v/release/Opnwall/ttyd-for-OPNsense)](https://github.com/Opnwall/ttyd-for-OPNsense/releases)
-[![GitHub Downloads](https://img.shields.io/github/downloads/Opnwall/ttyd-for-OPNsense/total)](https://github.com/Opnwall/ttyd-for-OPNsense/releases)
-[![GitHub Stars](https://img.shields.io/github/stars/Opnwall/ttyd-for-OPNsense)](https://github.com/Opnwall/ttyd-for-OPNsense/stargazers)
-[![GitHub Issues](https://img.shields.io/github/issues/Opnwall/ttyd-for-OPNsense)](https://github.com/Opnwall/ttyd-for-OPNsense/issues)
-[![License](https://img.shields.io/github/license/Opnwall/ttyd-for-OPNsense)](https://github.com/Opnwall/ttyd-for-OPNsense/blob/main/LICENSE)
-
 [![OPNsense](https://img.shields.io/badge/OPNsense-Plugin-orange)](https://opnsense.org/)
-[![FreeBSD](https://img.shields.io/badge/FreeBSD-14-red)](https://www.freebsd.org/)
+[![FreeBSD 14](https://img.shields.io/badge/FreeBSD-14-red)](https://www.freebsd.org/)
 [![ttyd](https://img.shields.io/badge/ttyd-Web%20Terminal-blue)](https://github.com/tsl0922/ttyd)
+[![amd64](https://img.shields.io/badge/Architecture-amd64-success)](#)
 
 This project adds a ttyd browser terminal to OPNsense under:
 
