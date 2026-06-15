@@ -86,3 +86,6 @@ service os-ttyd restart
 - Do not expose the ttyd listener to WAN.
 - Use strong OPNsense administrator credentials or SSH keys.
 - Remove the project or restrict management access when the terminal is not needed.
+
+## Disclaimer
+This is an unofficial plugin and is not supported by the OPNsense team; use at your own risk.
