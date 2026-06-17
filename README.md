@@ -93,4 +93,5 @@ service os-ttyd restart
 - Remove the project or restrict management access when the terminal is not needed.
 
 ## Disclaimer
-This is an unofficial plugin and is not supported by the OPNsense team; use at your own risk.
+
+This is an unofficial community project and is not affiliated with, endorsed by, or supported by the OPNsense team. Please review the source code carefully before deployment and use it at your own risk.
